@@ -1,6 +1,6 @@
 # tapyrus_playground
 
-Docker Signet に接続しながら気軽に tapyrusrb をいじれるレポジトリ
+気軽に Docker で Tapyrus testnet に接続しながら tapyrusrb をいじれるレポジトリ
 
 ## Setup
 
