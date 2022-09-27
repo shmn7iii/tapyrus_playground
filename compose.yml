@@ -10,7 +10,7 @@ services:
       - tapyrus_data_testnet:/root/.tapyrus
 
   ruby:
-    build: ruby:3.1.2
+    build: .
     tty: true
     depends_on:
       - tapyrusd

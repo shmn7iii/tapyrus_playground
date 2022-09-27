@@ -1,0 +1,54 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (7.0.4)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    concurrent-ruby (1.1.10)
+    daemon-spawn (0.4.2)
+    ecdsa (1.2.0)
+    eventmachine (1.2.7)
+    eventmachine_httpserver (0.2.1)
+    ffi (1.15.5)
+    i18n (1.12.0)
+      concurrent-ruby (~> 1.0)
+    iniparse (1.5.0)
+    json_pure (2.6.2)
+    leb128 (1.0.0)
+    minitest (5.16.3)
+    murmurhash3 (0.1.6)
+    siphash (0.0.1)
+    tapyrus (0.3.2)
+      activesupport (>= 5.2.3)
+      daemon-spawn
+      ecdsa
+      eventmachine
+      eventmachine_httpserver
+      ffi
+      iniparse
+      json_pure (>= 2.3.1)
+      leb128 (~> 1.0.0)
+      murmurhash3
+      siphash
+      terminal-table (~> 3.0.2)
+      thor
+    terminal-table (3.0.2)
+      unicode-display_width (>= 1.1.1, < 3)
+    thor (1.2.1)
+    tzinfo (2.0.5)
+      concurrent-ruby (~> 1.0)
+    unicode-display_width (2.3.0)
+
+PLATFORMS
+  arm64-darwin-21
+
+DEPENDENCIES
+  tapyrus
+
+RUBY VERSION
+   ruby 3.1.2p20
+
+BUNDLED WITH
+   2.3.9
